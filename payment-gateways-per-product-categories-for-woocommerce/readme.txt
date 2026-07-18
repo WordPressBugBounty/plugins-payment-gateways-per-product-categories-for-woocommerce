@@ -2,12 +2,12 @@
 Contributors: wpcodefactory, omardabbas, karzin, anbinder, kousikmukherjeeli
 Tags: woocommerce, payment gateway, conditional payments, payment by product, payment by country
 Requires at least: 4.4
-Tested up to: 6.9
-Stable tag: 1.8.4
+Tested up to: 7.0
+Stable tag: 2.0.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Use products and countries conditional rules to show/hide gateways, increase profit margins & optimize operations for your products by restricting payment methods in WooCommerce checkout page.
+Use product and country rules to show or hide payment gateways in WooCommerce, improve margins, and streamline checkout.
 
 == Description ==
 
@@ -192,6 +192,24 @@ Great plugin and great support!” – ⭐⭐⭐⭐⭐ [Asger Laursen](https://w
 Once activated, access the plugin's settings by navigating to the "WPFactory" and look for the relevant tab.
 
 == Changelog ==
+
+= 2.0.0 - 29/06/2026 =
+* Dev - Input sanitized.
+* Dev - Output escaped.
+* Dev - Nonce added.
+* Dev - SQL query prepared.
+* Dev - JS moved to external file.
+* Dev - Prefixes updated (from `alg` to `wpfactory`).
+* Dev - Coding standards improved.
+* Dev - Code refactoring.
+* Dev - WPFactory Admin Menu - Library updated (to v1.1.1).
+* Dev - WPFactory Cross-Selling - Library updated (to v1.1.2).
+* Dev - WPFactory Key Manager - Library updated (to v1.0.8).
+* WC tested up to: 10.9.
+
+= 1.8.5 - 22/05/2026 =
+* Tested up to: 7.0.
+* WC tested up to: 10.7.
 
 = 1.8.4 - 11/12/2025 =
 * WC tested up to: 10.4.
